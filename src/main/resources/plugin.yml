@@ -1,0 +1,5 @@
+name: VoidBox
+main: sh.miles.voidbox.VoidBox
+version: 1.0
+api-version: 1.17
+commands:
