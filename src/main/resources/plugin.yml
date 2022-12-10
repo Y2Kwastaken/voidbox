@@ -1,5 +1,5 @@
 name: VoidBox
-main: sh.miles.voidbox.VoidBox
+main: sh.miles.voidbox.VoidBoxPlugin
 version: 1.0
 api-version: 1.17
 commands:

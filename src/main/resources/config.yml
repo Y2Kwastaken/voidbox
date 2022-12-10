@@ -2,3 +2,36 @@
 # If you are unsure about a certain option, please refer to the comments.
 # If you are still unsure, do NOT RATE THIS PLUGIN POORLY! Join the Discord server and ask for help!
 # https://discord.gg/zUMCxcFEYy (Discord invite link)
+# If you do not have Discord, you can also start a conversation with me on SpigotMC 
+# https://www.spigotmc.org/members/y2k_.944948/ (Spigot profile link)
+# You can also open an issue on GitHub
+# https://github.com/Y2Kwastaken/voidbox/issues (GitHub issues link)
+
+voidbox:
+  # The Material of the VoidBox. Valid values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  # Default: "ENDER_CHEST"
+  type: "ENDER_CHEST"
+  # The name of the VoidBox. This name will be displayed in the inventory and above the VoidBox.
+  # Default: "<gradient:5a26a3:00000>Void Box</gradient>"
+  name: "<gradient:5a26a3:00000>Void Box</gradient>"
+  # The lore of the VoidBox. This lore will be displayed in the inventory and on the hologram
+  # Default: "<word:gray>Right click to open</gradient>"
+  lore:
+    - "<word:gray>Right click to open</gradient>"
+  # The amount of VoidBoxes that can be placed in a world. Set to -1 for unlimited.
+  # Default: -1
+  amount-per-world: -1
+  # The amount of VoidBoxes that can be placed in a world per player. Set to -1 for unlimited.
+  # Default: -1
+  amount-per-player: -1
+  # Whether world-list should be a whitelist or blacklist.
+  # If the white-list-or-blacklist value is "whitelist", VoidBoxes can only be placed in the worlds specified in world-list.
+  # If the white-list-or-blacklist value is "blacklist", VoidBoxes can be placed in all worlds except the ones specified in world-list.
+  # Valid values: "whitelist", "blacklist"
+  # if the value is not "whitelist" or "blacklist", the plugin will default to "blacklist"
+  # Default: "blacklist"
+  whitelist-or-blacklist: "blacklist"
+  # Worlds where VoidBoxes can be placed or not placed.
+  # Default: []
+  world-list: []
+  
